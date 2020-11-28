@@ -5,11 +5,9 @@ Home: https://github.com/benjaminrich/table1
 
 Package license: GPL-3.0-only
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-table1-feedstock/blob/master/LICENSE.txt)
 
 Summary: Create HTML tables of descriptive statistics, as one would expect to see as the first table (i.e. "Table 1") in a medical/epidemiological journal article.
-
-
 
 Current build status
 ====================
