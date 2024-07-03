@@ -1,6 +1,5 @@
 {% set version = "1.4.3" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-table1
@@ -13,8 +12,7 @@ source:
   sha256: 8316b530e87d7598b5a1a898611ca505a75316d7846fe9c42a2b2065186625f3
 
 build:
-  merge_build_host: true  # [win]
-  number: 1
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/
