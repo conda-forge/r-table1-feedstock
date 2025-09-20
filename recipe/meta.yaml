@@ -1,4 +1,4 @@
-{% set version = "1.5.0" %}
+{% set version = "1.5.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/table1_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/table1/table1_{{ version }}.tar.gz
-  sha256: f38b30dd7323ba6522a767b5aa15b7f635b3f53aedc61fb9cd060987673544c0
+  sha256: 81292647ed21827e392f4f1ac7a78af7a12232d6ae9b8e34612e33b19a6f0562
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
